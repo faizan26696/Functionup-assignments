@@ -1,0 +1,55 @@
+.login {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.icon-div {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: 55%;
+  left: 95%;
+}
+@media (min-width: 768px) {
+  .control {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+.main0 {
+  padding-bottom: 12px;
+}
+.main1 {
+  color: lightgray;
+  margin-bottom: 20px;
+}
+.orsection {
+  display: flex;
+  align-items: baseline;
+}
+.orsection p {
+  margin: 1rem;
+}
+.line {
+  height: 2px;
+  width: 50%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  color: lightskyblue;
+  margin: 2rem;
+}
+
+.btns {
+  border: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+  background: transparent;
+}
