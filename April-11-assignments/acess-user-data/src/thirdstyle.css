@@ -1,0 +1,56 @@
+/* --------------third section----------- */
+
+.main-Head th {
+  border: solid 1px;
+  padding: 5px;
+  width: 250px;
+  color: green;
+  background-color: greenyellow;
+}
+.body-data td {
+  background-color: greenyellow;
+  border-color: greenyellow;
+}
+/* #btn {
+  font-weight: 600;
+  background-color: rgb(85, 142, 6);
+  color: #fff;
+  padding: 2px;
+  margin: 2px;
+  border: solid rgb(5, 26, 5) 1px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 60px;
+} */
+/* .GetData-container {
+  width: 10000px;
+} */
+
+/* -----------second section-------- */
+
+.section-content {
+  background-color: rgb(138, 191, 161);
+  padding: 18px;
+}
+.section-content button {
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  background: rgb(122, 208, 158);
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+
+/* ------------first section----------- */
+.input-field {
+  background-color: rgb(138, 191, 161);
+  height: 100%;
+}
+.input-field input {
+  font-size: 14px;
+  border-radius: 6px;
+  margin-bottom: 45px;
+}
