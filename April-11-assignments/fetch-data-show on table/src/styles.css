@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.main-table {
+  border: solid 1px;
+  padding: 1px;
+}
+.table-head th {
+  border: solid 2px;
+  padding: 10px;
+  width: 200px;
+}
+.main-content td {
+  border: solid 1px;
+  text-align: center;
+}
