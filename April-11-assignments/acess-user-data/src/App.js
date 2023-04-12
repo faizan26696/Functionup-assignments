@@ -9,6 +9,7 @@ export default function App() {
   const [email, setEmail] = useState("");
   const [age, setAge] = useState("");
   const [tableData, setTableData] = useState([]);
+  const [currObjId, setCurrObjId] = useState("");
   return (
     <div className="App">
       <div className="first-row">
@@ -32,6 +33,8 @@ export default function App() {
             setAge={setAge}
             tableData={tableData}
             setTableData={setTableData}
+            currObjId={currObjId}
+            setCurrObjId={setCurrObjId}
           />
         </div>
       </div>
@@ -45,6 +48,8 @@ export default function App() {
           setAge={setAge}
           tableData={tableData}
           setTableData={setTableData}
+          currObjId={currObjId}
+          setCurrObjId={setCurrObjId}
         />
       </div>
     </div>

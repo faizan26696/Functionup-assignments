@@ -3,7 +3,7 @@
 .main-Head th {
   border: solid 1px;
   padding: 5px;
-  width: 250px;
+  width: 300px;
   color: green;
   background-color: greenyellow;
 }
@@ -11,7 +11,7 @@
   background-color: greenyellow;
   border-color: greenyellow;
 }
-/* #btn {
+#btn {
   font-weight: 600;
   background-color: rgb(85, 142, 6);
   color: #fff;
@@ -21,10 +21,7 @@
   border-radius: 6px;
   cursor: pointer;
   width: 60px;
-} */
-/* .GetData-container {
-  width: 10000px;
-} */
+}
 
 /* -----------second section-------- */
 

@@ -9,9 +9,35 @@ const Second = ({
   setAge,
   tableData,
   setTableData,
+  currObjId,
 }) => {
-  const btnHandler = () => {
-    setTableData([...tableData, { name: name, email: email, age: age }]);
+  const btnHandler = (id) => {
+    const existing = tableData.findIndex((item) => item.id === id);
+    if (existing > -1) {
+      const updatedData = [...tableData];
+      updatedData[existing] = {
+        id: id,
+        name: name,
+        email: email,
+        age: age,
+      };
+      setTableData(updatedData);
+    } else {
+      const newData = [
+        ...tableData,
+        {
+          id: Math.floor(Date.now() + Math.random()),
+          name: name,
+          email: email,
+          age: age,
+        },
+      ];
+      name.length > 0 &&
+        email.length > 0 &&
+        age.length > 0 &&
+        setTableData(newData);
+    }
+
     setName("");
     setEmail("");
     setAge("");
@@ -22,7 +48,7 @@ const Second = ({
       <h2>Email: {email}</h2>
       <h2>Age: {age}</h2>
 
-      <button onClick={btnHandler}>Add to Table</button>
+      <button onClick={() => btnHandler(currObjId)}>Add to Table</button>
     </div>
   );
 };

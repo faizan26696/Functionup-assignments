@@ -8,15 +8,15 @@ const First = ({ name, setName, email, setEmail, age, setAge }) => {
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
-      />{" "}
+      />
       <br />
       Email:
       <input
         type="text"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-      />{" "}
-      <br /> age:{" "}
+      />
+      <br /> age:
       <input type="text" value={age} onChange={(e) => setAge(e.target.value)} />
       <br /> <br />
     </div>
