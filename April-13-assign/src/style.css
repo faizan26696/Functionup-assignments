@@ -1,0 +1,24 @@
+body {
+  background-color: lightgreen;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+.list-container {
+  width: 50%;
+}
+.post-detail-container {
+  padding: 10px;
+  font-size: 16px;
+  width: 50%;
+  background-color: darkmagenta;
+  color: white;
+}
+.list {
+  background-color: pink;
+  margin: 10px;
+  border: 1px solid black;
+}
