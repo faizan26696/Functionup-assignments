@@ -1,0 +1,26 @@
+.container{
+    padding: 50px 10px;
+    margin-top: 100px;
+    background-color: burlywood;
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+button{
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: rgb(173, 48, 90);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+h2{
+    font-size: 50px;
+    color: crimson;
+}
