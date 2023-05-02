@@ -1,0 +1,31 @@
+.btn {
+    width: 80px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 6px;
+    border: none;
+    background-color: burlywood;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .favInput {
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid;
+  }
+  .searchInput {
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid;
+  }
+  .searcContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+  .textArea {
+    border-radius: 6px;
+    border: 1px solid;
+  }
